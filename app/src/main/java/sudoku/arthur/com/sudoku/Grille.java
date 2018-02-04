@@ -41,38 +41,12 @@ public class Grille extends View implements View.OnTouchListener{
         this.setOnTouchListener(this);
 
 
-       /* int xmodif;
-        int xmodifbtn;
-        int ymodif;
-        int index;*/
-
         remainPosY = 0;
         remainPosX = 0;
         remainBtnPosX = 0;
 
         rect = new rectangle[9][9];
         btn = new rectangle[9];
-
-       /* for(int y=0;y<9;y++){   //Création de la grille
-
-            for(int x=0;x<9;x++){
-
-                xmodif = (159*x)+x;
-                ymodif = (159*y)+y;
-                index = (x*9) + y;
-
-                rect[y][x] = new rectangle(xmodif,ymodif,159,""+grilleNb.charAt(index),false);
-
-            }
-        }
-
-        for(int x=0;x<9;x++){   //Création des boutons
-
-            xmodifbtn = (159*x)+x;
-
-            btn[x] = new rectangle(xmodifbtn,1500,159,""+(x+1),false);
-
-        }*/
 
     }
 
