@@ -40,7 +40,6 @@ public class Grille extends View implements View.OnTouchListener{
         rectangles = new LinkedList<rectangle>();
         this.setOnTouchListener(this);
 
-
         remainPosY = 0;
         remainPosX = 0;
         remainBtnPosX = 0;
